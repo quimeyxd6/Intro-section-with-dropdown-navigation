@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Epilogue', sans-serif;
+    background-color: rgba(255, 255, 255, 0.915)
+}
+
+.menu-bar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo {
+    font-size: 30px;
+    color: black;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-bar ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+
+    transition: all 0.3s;
+}
+
+.menu-bar ul li a:hover {
+    color: rgb(90, 88, 88);
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+.dropdown-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+}
